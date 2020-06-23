@@ -124,7 +124,7 @@ resource "null_resource" "nullmount" {
       "sudo mkfs.ext4 /dev/sdf",
       "sudo mount /dev/sdf /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/techhvs/nikhilloud.git  /var/www/html"
+      "sudo git clonehttps://github.com/techhvs/harshvloud.git  /var/www/html"
     ]
   }
 }
