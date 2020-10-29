@@ -154,7 +154,7 @@ resource "aws_s3_bucket_object" "file_upload" {
   depends_on = [
     aws_s3_bucket.bucket,
   ]
-  bucket = "saumik-test-bucket"
+  bucket = "nikhil-test-bucket"
   key    = "image.jpg"
   source = "image.jpg"
 
